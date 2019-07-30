@@ -76,6 +76,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -168,9 +169,13 @@ a.social:hover {
 }
 
 .wrapper {
-  max-width: 950px;
-  margin: auto;
+  max-width: 80%;
+  margin: 0 auto;
   text-align: left;
+}
+
+.main-footer {
+  background-color: rgb(204, 157, 42);;
 }
 
 /* Styles for larger screens */
