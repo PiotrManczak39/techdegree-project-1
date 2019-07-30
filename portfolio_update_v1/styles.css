@@ -167,6 +167,12 @@ a.social:hover {
   clear: both;
 }
 
+.wrapper {
+  max-width: 950px;
+  margin: auto;
+  text-align: left;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
