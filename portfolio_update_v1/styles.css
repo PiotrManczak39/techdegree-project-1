@@ -185,6 +185,9 @@ a.social:hover {
   padding: 20px;
   width: 40%;
   float: right;
+  box-shadow: 10px 10px;
+  margin-top: -50px;
+  margin-right: -20px;
 }
 
 /* Styles for larger screens */
