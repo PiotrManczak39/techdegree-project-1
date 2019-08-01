@@ -15,10 +15,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: blue;
 }
 a:hover {
-  color: #6633ff;
+  color: red;
 }
 
 /* Section Styles */
@@ -175,9 +175,18 @@ a.social:hover {
 }
 
 .subpage {
-  background-color: rgb(204, 157, 42);
+  color: white;
+  background-color: #58e022;
   width: 100%;
   margin: 0 auto;
+  margin-top: 0;
+  padding: 0px;
+  padding-bottom: 20px;
+  border-top: solid 2px black;
+}
+
+.topParagraph {
+  padding-top: 5px;
 }
 
 .lorry {
@@ -188,6 +197,10 @@ a.social:hover {
   box-shadow: 10px 10px;
   margin-top: -50px;
   margin-right: -20px;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 /* Styles for larger screens */
