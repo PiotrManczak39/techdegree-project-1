@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/miasto.jpg') no-repeat top center ;
+  background: url('images/Northampton.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -176,11 +176,9 @@ a.social:hover {
 
 .subpage {
   color: white;
-  background-color: #58e022;
+  background-image: linear-gradient(25deg, #58e022, orange);
   width: 100%;
   margin: 0 auto;
-  margin-top: 0;
-  padding: 0px;
   padding-bottom: 20px;
   border-top: solid 2px black;
 }
@@ -190,11 +188,11 @@ a.social:hover {
 }
 
 .lorry {
-  border-radius: 50px;
-  padding: 20px;
+  border-radius: 70px;
+  border: 2px solid pink;
   width: 40%;
   float: right;
-  box-shadow: 10px 10px;
+  box-shadow: 10px -5px 20px lightgreen;
   margin-top: -50px;
   margin-right: -20px;
 }
