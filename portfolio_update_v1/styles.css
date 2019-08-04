@@ -176,7 +176,7 @@ a.social:hover {
 
 .subpage {
   color: white;
-  background-image: linear-gradient(25deg, #58e022, orange);
+  background-image: radial-gradient(#58e022, orange);
   width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
