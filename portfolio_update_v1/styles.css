@@ -172,12 +172,13 @@ a.social:hover {
   max-width: 75%;
   margin: 0 auto;
   text-align: left;
+  padding-bottom: 70px;
 }
 
 .subpage {
   color: white;
   background-image: radial-gradient(#58e022, orange);
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
 }
