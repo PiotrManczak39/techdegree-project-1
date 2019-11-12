@@ -195,6 +195,11 @@ a.social:hover {
   box-shadow: 10px -5px 20px lightgreen;
   margin-top: -50px;
   margin-right: -20px;
+  transition: transform 1s ease-in-out 0.3s; 
+}
+
+.lorry:hover {
+  transform: rotate(-360deg);
 }
 
 a:link {
