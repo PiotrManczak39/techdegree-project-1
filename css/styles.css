@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Northampton.jpg') no-repeat center;
+  background: url('../images/Northampton.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -144,7 +144,7 @@ footer ul li {
 
 a.social {
   display: inline-block;
-  text-indent: -9999px;
+  /* text-indent: -99px; */
   margin-left: 5px;
   width: 30px;
   height: 30px;
@@ -153,13 +153,13 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -195,7 +195,7 @@ a.social:hover {
   box-shadow: 10px -5px 20px lightgreen;
   margin-top: -50px;
   margin-right: -20px;
-  transition: transform 1s ease-in-out 0.3s; 
+  transition: transform 1s ease-in-out 0.3s;
 }
 
 .lorry:hover {
@@ -210,7 +210,7 @@ a:link {
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
